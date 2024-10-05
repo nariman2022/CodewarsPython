@@ -6,5 +6,8 @@
 # solution(None) # should return []
 
 def solution(nums):
-    #return sorted(nums) if nums else []
+    return sorted(nums) if nums else []
+
+
+def solution(nums):
     return sorted(nums or [])
