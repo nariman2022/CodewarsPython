@@ -5,5 +5,5 @@
 def grow(arr):
     total = 1
     for d in arr:
-        total = total * d
+        total *= d
     return total

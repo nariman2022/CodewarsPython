@@ -6,7 +6,4 @@
 # The function receives one parameter health which will always be a whole number between -10 and 10.
 
 def check_alive(health):
-    if health > 0:
-        return True
-    else:
-        return False
+    return True if health > 0 else False

@@ -13,4 +13,4 @@
 # cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
 
 def enough(cap, on, wait):
-    return 0 if on+wait-cap<=0 else on+wait-cap
+    return on+wait-cap if on+wait-cap >= 0 else 0

@@ -4,5 +4,5 @@
 
 import re
 def is_lock_ness_monster(string):
-    x = re.search("tree fiddy|3\.50|three fifty", string)
+    x = re.search("tree fiddy|3.50|three fifty", string)
     return bool(x)

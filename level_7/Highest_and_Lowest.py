@@ -12,6 +12,4 @@
 
 def high_and_low(numbers):
     nums = [int(num) for num in numbers.split()]
-    a = max(nums)
-    b = min(nums)
-    return f'{a} {b}'
+    return f'{max(nums)} {min(nums)}
